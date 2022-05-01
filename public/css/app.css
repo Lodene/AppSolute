@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    margin: 30px 25px;
+    font-size: 20px;
+}
+
+
+
+.utilisateurs.allpost {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+} 
+
+.utilisateurs.post {
+    border: 2px solid black;   
+    width: min-content; 
+    padding: 25px;
+    border-radius: 1.5em;
+    margin: 25px;
+}
+
+.utilisateurs.all h1 {
+    text-align: center;
+}
+
+
+
+/* ---------------------------- */
+.user.all {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user > h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.user.date, .user.signes {
+    font-size: 25px;
+}
+
+.user.signes {
+    display: flex;
+    justify-content: center;
+}
+
+.user.signes div {
+    padding: 25px 25px;
+}
